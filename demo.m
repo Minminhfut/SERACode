@@ -35,6 +35,7 @@ for iData = 1:12
     parameterGRA.beta = 0.01;
     parameterGRA.k = 10;
     parameterGRA.size = size(src_labels,1);
+    
     fprintf('data = %s\n', data);
     disp('Stage one: Enriching the knowledge of intra-domain features');
     parameter.rho = 0.001;
